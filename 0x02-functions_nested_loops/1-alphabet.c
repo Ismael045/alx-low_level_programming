@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- * Print alpahbet: Print alphabet in lowercase using only _putchar
+ * main - check the code
+ *" print_alphabet" - Print alphabet in lowercase using only `_putchar`
  * Return: Always 0
  */
 void print_alphabet(void)
 {
-	int n;
+	char c = 'a';
 
-	for (n = 97; n <= 122; n++)
+	while (c <= 'z')
 	{
-
-		_putchar('n');
-		n++;
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
-
