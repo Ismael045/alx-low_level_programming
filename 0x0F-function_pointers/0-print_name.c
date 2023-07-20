@@ -6,7 +6,7 @@
  * @f: function pointer thta takes a string argument
  */
 
-void print_name(char *name,void (*f)(char *))
+void print_name(char *name, void (*f)(char *))
 {
 	f(name);
 }
